@@ -1,11 +1,29 @@
-﻿__pycache__/
-*.pyc
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
 .venv/
 venv/
-.env
-.idea/
+
+# IDE
 .vscode/
+.idea/
+
+# Environment
+.env
+
+# Database
 *.db
-storage/
+
+# Logs
 logs/
-LICENSE
+
+# Storage
+storage/images/
+storage/videos/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
