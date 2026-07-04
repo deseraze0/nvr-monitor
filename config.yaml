@@ -1,0 +1,30 @@
+app:
+  name: "NVR Monitor"
+  debug: true
+
+database:
+  url: "sqlite+aiosqlite:///nvr_monitor.db"
+
+telegram:
+  token: "8559453998:AAFjRraRqLfv0-tuL1w8npnLSTlQutS-EM0"
+  chat_id: 6236374790
+
+storage:
+  images: "storage/images"
+  videos: "storage/videos"
+
+logging:
+  level: "INFO"
+
+drivers:
+  watchdog:
+    enabled: true
+
+  xm:
+    enabled: false
+
+  hikvision:
+    enabled: false
+
+  dahua:
+    enabled: false
