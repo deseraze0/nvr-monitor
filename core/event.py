@@ -7,16 +7,20 @@ from uuid import uuid4
 
 class EventType(Enum):
     MOTION = "motion"
+
     HUMAN = "human"
     FACE = "face"
+
     LINE_CROSSING = "line_crossing"
     INTRUSION = "intrusion"
-    VIDEO_LOSS = "video_loss"
-    DISK_ERROR = "disk_error"
-    VISITOR_COUNT = "visitor_count"
-    MASK = "mask"
-    LICENSE_PLATE = "license_plate"
-    UNKNOWN = "unknown"
+
+    SNAPSHOT = "snapshot"
+    VIDEO = "video"
+
+    FILE_CREATED = "file_created"
+    FILE_DELETED = "file_deleted"
+
+    SYSTEM = "system"
 
 
 class Severity(Enum):
